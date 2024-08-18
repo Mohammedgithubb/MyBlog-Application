@@ -1,15 +1,35 @@
-I have developed a project named MY BLOG APPLICATION where I have created different modules like Post and Comment Module.
+# MY BLOG APPLICATON #
 
-In POST MODULE:
-    In this Module, I have four methods CreatPost, DeletePostById, GetPostById, and UpdatePostById
+**OVERVIEW**
 
-In COMMENT MODULE:
-    In this Comment Module, we have different methods like CreateComment, DeleteCommentById, GetCommentById, and UpdateCommentById.
+(''' A full-stack web application built using Spring MVC, providing a platform for users to create and manage blog posts and comments.''')
 
 
-Description of the Project:
-            * Implemented Spring MVC architecture to align user requirements and execute full-stack CRUD operations seamlessly.
-            * Maintained Distinct layers of Controller, Service, Entity & Repository for efficient code organization, while integrating RESTful APIs, JSON, Hibernate JPA, and Spring Security for scalability and                    security.
-            * Executed thorough API testing using Postman, ensuring robust and reliable functionality for diverse endpoints.
-            * Implemented exception handling to deliver meaningful error responses
-            * Technologies used:- Java, Spring Boot, Spring MVC, MySQL & JUnit.
+**FEATURES**
+
+***POST MODULE***
+
+| Method              | Description                          |
+|---------------------|--------------------------------------|
+| `CreatePost`        | Allows users to create new posts.    |
+| `DeletePostById`    | Deletes a post by ID.                |
+| `GetPostById`       | Retrieves post details by ID.        |
+| `UpdatePostById`    | Updates a post by ID.                |
+
+***COMMENT MODULE***
+
+| Method              | Description                          |
+|---------------------|--------------------------------------|
+| `CreateComment`     | Allows users to add comments.        |
+| `DeleteCommentById` | Deletes a comment by ID.             |
+| `GetCommentById`    | Retrieves comment details by ID.     |
+| `UpdateCommentById` | Updates a comment by ID.             |
+
+## Screenshots
+![Post Module](images/post_module.png)
+![Comment Module](images/comment_module.png)
+
+## Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/myblog-application.git
